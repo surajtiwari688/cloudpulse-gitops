@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
         - name: cloudpulse-api
-          image: ghcr.io/surajtiwari688/cloudpulse-ai:v1
+          image: ghcr.io/surajtiwari688/cloudpulse-ai:cc9ed389e6367bdb021df755cddba9eab96b3218
           imagePullPolicy: Always
           ports:
             - name: http
